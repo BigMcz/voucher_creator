@@ -28,7 +28,7 @@
         <textarea id="voucherInfo" name="voucherInfo" rows="4" cols="1"></textarea>
 
         <label for="myfile">Pro vlastní návrh designu vyberte obrázek ve formátu png:</label>
-        <input type="file" id="myfile" name="myfile"><br>
+        <input type="file" class="custom-file-input" id="myfile" name="myfile">
 
         <label for="design">Vyberte předvolený Design</label>
         <select id="design" name="design">
@@ -38,7 +38,7 @@
             <option value="Design3">Design3</option>
     </select>
   
-    <input type="submit" value="Submit">
+    <input type="submit" value="Vygenerovat PDF">
   </form>
 
 </article>
