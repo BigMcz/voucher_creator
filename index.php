@@ -21,14 +21,18 @@
         <label for="companyName">Název podniku</label>
         <input type="text" id="companyName" name="companyName" placeholder="Název podniku..">
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="addText">Dobrovolný doplňkový text (např.: otevírací doba, upřesnění platnosti voucheru, adresa, ..)</label>
+        <input type="text" id=addText" name="addText" placeholder="Doplňkový text..">
 
         <label for="voucherInfo">Vyplňte vouchery ve formátu:  číslo;kod;hodnota;platnost</label>
         <textarea id="voucherInfo" name="voucherInfo" rows="4" cols="1"></textarea>
 
-        <label for="design">Country</label>
+        <label for="myfile">Pro vlastní návrh designu vyberte obrázek ve formátu png:</label>
+        <input type="file" id="myfile" name="myfile"><br>
+
+        <label for="design">Vyberte předvolený Design</label>
         <select id="design" name="design">
+            <option value="0">Nahrávám vlastní design</option>
             <option value="Design1">Design1</option>
             <option value="Design2">Design2</option>
             <option value="Design3">Design3</option>

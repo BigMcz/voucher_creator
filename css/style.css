@@ -47,7 +47,8 @@ label {
     margin-top: 1rem;
 }
 
-input[type=text], 
+input[type=text],
+input[type=file], 
 select {
     width: 100%;
     padding: 12px 20px;
