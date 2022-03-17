@@ -17,7 +17,7 @@
 <article class="formular">
     <p class="formTitle">Vyplňte všechny údaje</p>
     
-    <form action="pdf.php" method="POST"> 
+    <form action="generatepdf.php" method="POST"> 
         <label for="companyName">Název podniku</label>
         <input type="text" id="companyName" name="companyName" placeholder="Název podniku..">
 
