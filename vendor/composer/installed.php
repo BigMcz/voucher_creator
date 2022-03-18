@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '722ca1b02546fea4a69b16425222dd9444558dd5',
+        'reference' => 'e833d45362c2f3553ec7b839fad4fea3ac6d739c',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '722ca1b02546fea4a69b16425222dd9444558dd5',
+            'reference' => 'e833d45362c2f3553ec7b839fad4fea3ac6d739c',
             'dev_requirement' => false,
         ),
         'mpdf/mpdf' => array(
@@ -44,6 +44,15 @@
             'install_path' => __DIR__ . '/../paragonie/random_compat',
             'aliases' => array(),
             'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+            'dev_requirement' => false,
+        ),
+        'picqer/php-barcode-generator' => array(
+            'pretty_version' => 'v2.2.1',
+            'version' => '2.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../picqer/php-barcode-generator',
+            'aliases' => array(),
+            'reference' => '49022793ff09569c57a2621ba58a191db5a421c4',
             'dev_requirement' => false,
         ),
         'psr/log' => array(
